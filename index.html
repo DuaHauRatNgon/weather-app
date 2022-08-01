@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weaather app</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="search">
+            <i class='bx bx-search'></i>
+            <input type="text" id="searchBtn">
+        </div>
+            
+
+        <div id="city">  -- </div>
+
+        <div id="data">
+            <div id="temperature">
+                <img id="icon" src="" alt="">
+                <div id="temperatureData">
+                    <h2 id="C" >--</h2>
+                    <span id="description"></span>
+                </div>
+            </div>        
+
+            <div id="information">
+                <div class="row">
+                    <span id="humidity"> -- </span> 
+                    <span id="wind"> -- </span>
+                </div>
+                
+                <div class="row">
+                    <span id="tinh-hinh"> -- </span> 
+                    <span id="tam-nhin"> -- </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
